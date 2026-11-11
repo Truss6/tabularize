@@ -5,7 +5,6 @@
 	./tabularize.py data.csv
 
 		creates data.tex
-		use \input{data.tex} inside \begin{table}...\end{table}
 '''
 from sys import argv,exit
 argc=len(argv)
