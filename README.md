@@ -8,15 +8,15 @@ Then in your tex-main, use \input inside your table:
 
 %%%%%TEX EXAMPLE%%%%%
 
-\begin{table}
+  \begin{table}
 
-\centering
+  \centering
 
-\caption{Some Data}\label{tab:data}
+  \caption{Some Data}\label{tab:data}
 
-\input{data.tex}
+  \input{data.tex}
 
-\end{table}
+  \end{table}
 
 %%%%%END EXAMPLE%%%%%
 
