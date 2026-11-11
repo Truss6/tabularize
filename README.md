@@ -33,6 +33,6 @@ By default, tabularize calculates the number of columns and fills in the correct
   Do not use with fixed-width files!
 
 
-This script was written for a latex class that uses \toprule and \bottomrule. If your document only has \hrule, consider modifying lines 25 and 43, or use "\def\toprule{\hrule}" and "\def\bottomrule{\hrule}"
+This script was written for a latex class that uses \toprule and \bottomrule. If your document only has \hline, consider modifying lines 25 and 43, or use "\def\toprule{\hline}" and "\def\bottomrule{\hline}"
 
 If you use latexmk, it seems like -cc and -pvc will auto compile your main whenever tabularize is run.
