@@ -30,7 +30,7 @@ By default, tabularize calculates the number of columns and fills in the correct
     
   The default delimiter is a comma, but can be changed in line 14 
   
-    Do not use with fixed-width files!
+  Do not use with fixed-width files!
 
 
 This script was written for a latex class that uses \toprule and \bottomrule. If your document only has \hrule, consider modifying lines 25 and 43, or use "\def\toprule{\hrule}" and "\def\bottomrule{\hrule}"
